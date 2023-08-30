@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(76, 170, 247);
+}
+.main {
+  /* border: 2px solid yellow; */
+  background-image: url("./images/bg.avif");
+  object-fit: contain;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 599px;
+}
+.navbar {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50rem;
+}
+li {
+  margin: 1rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  list-style-type: none;
+}
+.mainfirst {
+  filter: blur(4px);
+  /* border: 2px solid green; */
+  width: 55%;
+  height: 60%;
+  position: absolute;
+}
+.stopwatch {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 60%;
+  backdrop-filter: blur(8px);
+}
+h2 {
+  margin-top: 0rem;
+  font-size: 4rem;
+  color: white;
+}
+
+img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 40px;
+  width: 40px;
+}
+img:nth-child(2) {
+  height: 55px;
+  width: 55px;
+}
+
+/* // timer */
+.timer-btn {
+  padding: 0.5rem;
+  font-size: 2rem;
+  background-color: red;
+  color: white;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+}
+
+.button {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
